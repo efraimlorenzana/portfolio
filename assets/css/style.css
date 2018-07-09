@@ -23,11 +23,11 @@
  }
 
  section {
- 	/*min-height: 100vh;*/
+ 	min-height: 100vh;
  	color: white;
  }
 
- section > div > div > h2.sectionheader {
+ .sectionheader {
  	letter-spacing: 3px;
  	text-align: center;
  	padding: 15px;
@@ -66,9 +66,6 @@
  }
  section#home > div.row {
  	background-color: #1313bd6e;
-    min-height: 100vh;
-    width: 100%;
-    margin: 0 auto;
  }
 
  section#home > div > div > div > h1,
@@ -94,30 +91,64 @@ img#myPic {
  section#home > div > div.right > div {
  	background: linear-gradient(to right, rgba(0, 255, 0, 0.43), rgba(4, 4, 251, 0.25), rgba(245, 39, 10, 0.57));
  }
+ 
+ section#experience > div.row {
+ 	background: linear-gradient(rgb(209, 46, 185), rgba(234, 228, 17, 0.45), rgb(231, 24, 61))
+ }
+
+ section#portfolio > div.wrapper {
+ 	background-color: #13bd16a1;
+ }
+ section#portfolio > div.wrapper > div#gallery {
+ 	display: flex;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ 	padding-bottom: 400px;
+ }
+ section#portfolio > div.wrapper 	> div#gallery > div.project {
+ 	width: 400px;
+ 	height: 250px;
+ 	background-color: white;
+ 	margin-left: 10px;
+ 	margin-bottom: 150px;
+ 	color: yellow;
+ }
+
+ section#portfolio > div.wrapper 	> div#gallery > div.project > img {
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ section#portfolio > div.wrapper  > div#gallery > div.project > div.details {
+ 	background-color: #0000ff24;
+ 	padding: 10px 0;
+ }
 
  section#contact {
  	background: linear-gradient(to right, rgb(0, 17, 0), rgb(170, 0, 0), rgb(0, 0, 23));
  	position: relative;
  }
 
+ div#contact1 {
+ 	background: linear-gradient(#a70b0b,black);
+ }
+
+ section#contact > div > div > ul > li {
+ 	list-style: none;
+ 	margin-left: 20px;
+ }
+
  section#contact > div > div > div > ul {
  	text-align: center;
- 	padding: 5px;
+ 	margin-top: 30px;
  }
 
  section#contact > div > div > div > ul > li {
  	list-style: none;
  	display: inline-block;
- 	padding: 25px;
- 	margin-left: 10px;
- 	/*border: 2px solid blue;*/
- 	width: 110px;
- 	margin-bottom: 50px;
  }
 
  section#contact > div > div > form {
- 	border: 2px solid blue;
- 	background: darkslategray;
  	border-radius: 10px;
  }
 
@@ -142,10 +173,21 @@ img#myPic {
  * Custom Classes
  *
  */
- .bg-img-main {
- 	background-image: url('../img/bg2.jpg');
+ .set-wrapper {
+ 	min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+ }
+ .bg-img {
  	background-attachment: fixed;
  	background-size: cover;
+ }
+ .bg-img-main {
+ 	background-image: url('../img/bg2.jpg');
+ }
+
+ .bg-img-portfolio {
+ 	background-image: url('../img/bg1.jpg');
  }
 
  .bg-gradient {
@@ -156,6 +198,10 @@ img#myPic {
  	color: white;
  	position: relative;
  	height: 100vh;
+ }
+
+ .lang {
+ 	margin: 0 auto;
  }
  .clear:after {
  	content: "";
@@ -179,6 +225,10 @@ img#myPic {
  .row {
  	margin: 0;
  }
+
+ /*--------------------------------*/
+
+
 
 
 

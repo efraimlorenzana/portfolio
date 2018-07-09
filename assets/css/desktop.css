@@ -6,16 +6,39 @@
  */
 
  section#home > div > div.right > div {
- 	margin-top: 15%;
+ 	margin-top: 3%;
  }
 
  section#contact > div > div > form {
- 	margin: 10px 50px;
-    padding: 25px;
+ 	margin: 10px 20px;
+ 	/* padding: 25px; */
+ }
+
+ div#contact1 {
+    position: absolute;
+    width: 80%;
+    top: -40%;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 60px 30px 20px 30px;
+ }
+
+ section#contact > div > div > form > div > input.btn {
+ 	width: 50%;
  }
 
  textarea[id="txtMessage"] {
- 	height: 300px;
+ 	height: 200px;
+ }
+
+ section#contact > div > div > div > ul > li {
+    margin-left: 10px;
+    width: 50px;
+}
+
+
+.lang {
+ 	width: 60%;
  }
 
 
