@@ -1,0 +1,184 @@
+/*
+ *
+ * CSS Reset
+ *
+ */
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+/*
+ *
+ * General Rules
+ *
+ */
+ body {
+	font-family: 'IBM Plex Mono', monospace;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+ section {
+ 	/*min-height: 100vh;*/
+ 	color: white;
+ }
+
+ section > div > div > h2.sectionheader {
+ 	letter-spacing: 3px;
+ 	text-align: center;
+ 	padding: 15px;
+ 	text-transform: uppercase;
+ }
+
+/*
+ *
+ * Header
+ *
+ */
+ #me {
+ 	width: 50px;
+ 	border-radius: 50%;
+ 	border: 2px solid #8080f1;
+ 	padding: 3px;
+ }
+ #navbarSupportedContent > ul > li {
+ 	margin: 0 20px;
+ }
+ #navbarSupportedContent > ul > li > a {
+ 	text-transform: uppercase;
+    letter-spacing: 3px;
+ }
+
+/*
+ *
+ * Content
+ *
+ */
+ main#wrapper {
+ 	background-color: black;
+ }
+ section#home {
+ 	background-color: black;
+ }
+ section#home > div.row {
+ 	background-color: #1313bd6e;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+ }
+
+ section#home > div > div > div > h1,
+ section#home > div > div > h2,
+ section#home > div > div > div > h3 {
+ 	margin-top: 15px;
+ 	letter-spacing: 3px;
+ 	text-align: center;
+ 	color: wheat;
+ }
+img#myPic {
+	width: 50%;
+ 	margin-top: 2%;
+ 	border: 3px solid wheat;
+ 	padding: 2px;
+ 	border-radius: 50%;
+ }
+
+ section#home > div > div.right > div > p {
+ 	text-indent: 50px;
+ }
+
+ section#home > div > div.right > div {
+ 	background: linear-gradient(to right, rgba(0, 255, 0, 0.43), rgba(4, 4, 251, 0.25), rgba(245, 39, 10, 0.57));
+ }
+
+ section#contact {
+ 	background: linear-gradient(to right, rgb(0, 17, 0), rgb(170, 0, 0), rgb(0, 0, 23));
+ 	position: relative;
+ }
+
+ section#contact > div > div > div > ul {
+ 	text-align: center;
+ 	padding: 5px;
+ }
+
+ section#contact > div > div > div > ul > li {
+ 	list-style: none;
+ 	display: inline-block;
+ 	padding: 25px;
+ 	margin-left: 10px;
+ 	/*border: 2px solid blue;*/
+ 	width: 110px;
+ 	margin-bottom: 50px;
+ }
+
+ section#contact > div > div > form {
+ 	border: 2px solid blue;
+ 	background: darkslategray;
+ 	border-radius: 10px;
+ }
+
+ textarea[id="txtMessage"] {
+ 	max-width: 100%;
+ }
+
+ section#contact > footer {
+ 	padding-top: 10px;
+ 	background-color: gray;
+ 	position: absolute;
+ 	text-align: center;
+ 	width: 100%;
+ 	bottom: 0;
+ 	color: #ffdb00;
+ 	line-height: 3;
+ }
+
+
+/*
+ *
+ * Custom Classes
+ *
+ */
+ .bg-img-main {
+ 	background-image: url('../img/bg2.jpg');
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ }
+
+ .bg-gradient {
+ 	background: linear-gradient(to right, rgb(0, 0, 0), rgb(53, 11, 251));
+ }
+.bg-dim {
+ 	background-color: #0000006b;
+ 	color: white;
+ 	position: relative;
+ 	height: 100vh;
+ }
+ .clear:after {
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+ }
+
+/*
+ *
+ * Overidden Bootstrap
+ *
+ */
+ .active {
+ 	color: lightgreen !important;
+ }
+
+ .container-fluid {
+ 	padding: 0;
+ }
+
+ .row {
+ 	margin: 0;
+ }
+
+
+

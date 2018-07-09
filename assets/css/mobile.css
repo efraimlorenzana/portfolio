@@ -1,0 +1,37 @@
+@media only screen and (max-width: 400px) {
+
+	/*
+	 *
+	 * Content
+	 *
+	 */
+
+	 section#home > div > div > div > h1 {
+	 	letter-spacing: -3px;
+	 }
+
+	 section > div > div > h2.sectionheader {
+	 	padding: 15px 0; 
+	 }
+
+	 section#contact > div > div > div > ul {
+	 	text-align: center;
+	 	padding: 8px 1px;
+	 }
+
+	 section#contact > div > div > div > ul > li {
+	 	padding: 10px;
+	 	margin-left: 0px;
+	 	width: 60px;
+	 }
+
+	 section#contact > div > div > form {
+	 	margin: 1px;
+	 	padding: 8px;
+	 }
+
+	 section#contact > footer {
+	 	line-height: 2;
+	 	font-size: 8px;
+	 }
+}/* End of Viewport */
