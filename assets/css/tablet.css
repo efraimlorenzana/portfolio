@@ -1,4 +1,4 @@
-@media only screen and (min-width: 401px) and (max-width: 960px){
+@media only screen and (min-width: 601px) and (max-width: 960px){
 
 	/*
 	 *
@@ -7,7 +7,7 @@
 	 */
 
 	 /*section {
-	 	min-height: 50vh;
+	 	height: 30vh;
 	 }*/
 
 	/*
@@ -16,12 +16,14 @@
 	 *
 	 */
 
-	 section#contact > div > div > form {
-	 	margin: 15px;
-	 	padding: 15px;
+	/*
+	 *
+	 * Classes
+	 *
+	 */
+
+	 .lang {
+	 	width: 90%;
 	 }
 
-	 section#contact > div > div > div > ul > li {
-	 	margin-bottom: 66px;
-	 }
 }/*End of View port*/

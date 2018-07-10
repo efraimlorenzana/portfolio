@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
 	/*
 	 *
@@ -14,24 +14,33 @@
 	 	padding: 15px 0; 
 	 }
 
-	 section#contact > div > div > div > ul {
-	 	text-align: center;
-	 	padding: 8px 1px;
+	 section#portfolio > div.wrapper > div#gallery {
+	 	padding-bottom: 10px;
+	 }
+
+	 section#portfolio > div.wrapper > div#gallery > div.project {
+	 	margin: 0 10px 200px;
+	 }
+
+	 div#contact1 {
+	 	width: 100%;
+	 	padding: 15px 0;
+	 }
+
+	 section#contact {
+	 	min-height: 20vh;
 	 }
 
 	 section#contact > div > div > div > ul > li {
-	 	padding: 10px;
-	 	margin-left: 0px;
-	 	width: 60px;
+	 	margin-bottom: 50px;
+	 	width: 50px;
 	 }
-
-	 section#contact > div > div > form {
-	 	margin: 1px;
-	 	padding: 8px;
-	 }
-
 	 section#contact > footer {
 	 	line-height: 2;
 	 	font-size: 8px;
+	 }
+
+	 .lang {
+	 	width: 100%;
 	 }
 }/* End of Viewport */
