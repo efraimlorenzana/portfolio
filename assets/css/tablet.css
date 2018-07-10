@@ -6,15 +6,20 @@
 	 *
 	 */
 
-	 /*section {
-	 	height: 30vh;
-	 }*/
+	 img#myPic {
+	 	width: 50%;
+	 }
 
 	/*
 	 *
 	 * Content
 	 *
 	 */
+
+	 section#contact > div > div > ul {
+	 	text-align: center;
+	 	letter-spacing: 3px;
+	 }
 
 	/*
 	 *

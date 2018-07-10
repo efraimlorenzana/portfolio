@@ -1,5 +1,9 @@
 @media only screen and (max-width: 600px) {
 
+	 img#myPic {
+	 	width: 50%;
+	 }
+
 	/*
 	 *
 	 * Content
@@ -31,9 +35,21 @@
 	 	min-height: 20vh;
 	 }
 
+	 section#contact > div > div > ul {
+	 	text-align: center;
+	 }
+
+	 section#contact > div > div > ul > li {
+	 	margin-left: 0;
+	 }
+
 	 section#contact > div > div > div > ul > li {
 	 	margin-bottom: 50px;
 	 	width: 50px;
+	 }
+
+	 section#contact > div > div > form > div > input.btn {
+	 	width: 80%;
 	 }
 	 section#contact > footer {
 	 	line-height: 2;
