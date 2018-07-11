@@ -47,4 +47,15 @@
 	 }
 
 
-} /* End of media view*/
+	 } /* End of media view*/
+
+
+/* Viewport Height */
+
+@media only screen and (min-height: 401px) and (max-height: 750px) {
+
+ 	section#contact {
+ 		min-height: 95vh;
+ 	}
+
+}

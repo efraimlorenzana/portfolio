@@ -166,13 +166,11 @@ img#myPic {
  	max-width: 100%;
  }
 
- section#contact > footer {
- 	padding-top: 10px;
+ footer {
+ 	padding: 10px 0;
  	background-color: gray;
- 	position: absolute;
  	text-align: center;
  	width: 100%;
- 	bottom: 0;
  	color: #ffdb00;
  	line-height: 3;
  }
