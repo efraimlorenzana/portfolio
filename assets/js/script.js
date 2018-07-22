@@ -11,8 +11,13 @@ window.addEventListener("resize", function () {
 		sectionContact.height(sectionContact.height() + dif);
 		h = win.height();
 	}
+	if(win.width() > 600) {
+		sectionContact.height(contact.height()-150);
+	}
 });
 
 window.addEventListener("load", function () {
-	sectionContact.height(contact.height()-150);
+	if(win.width() > 600) {
+		sectionContact.height(contact.height()-150);
+	}
 });
