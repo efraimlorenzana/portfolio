@@ -76,6 +76,13 @@
  	text-align: center;
  	color: wheat;
  }
+
+ section#home > div > div > h2 {
+    background: linear-gradient(#ffffff4f, #00000052,black,black,black, #ffffff8a);
+    padding: 10px 0;
+    border-radius: 50px;
+ }
+
 img#myPic {
  	margin-top: 2%;
  	border: 3px solid wheat;
@@ -90,6 +97,10 @@ img#myPic {
  section#home > div > div.right > div {
  	background: linear-gradient(to right, rgba(0, 255, 0, 0.43), rgba(4, 4, 251, 0.25), rgba(245, 39, 10, 0.57));
  }
+
+ section#home > div > div > div> button {
+    margin: 10px 0;
+}
 
  section#technology > div.wrapper {
  	background-color: #000000bd;
@@ -168,7 +179,7 @@ img#myPic {
 
  section#contact > footer {
  	padding-top: 10px;
- 	background-color: gray;
+ 	background-color: black;
  	position: absolute;
  	text-align: center;
  	width: 100%;

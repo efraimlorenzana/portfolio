@@ -13,6 +13,9 @@
 	 section#home > div > div.right > div {
 	 	margin-top: 1%;
 	 }
+	 section#home > div > div > div> button {
+	 	margin: 10px 0;
+	 }
 
 	 section#contact > div > div > form {
 	 	margin: 10px 20px;
@@ -22,10 +25,10 @@
 	 div#contact1 {
 	 	position: absolute;
 	 	width: 80%;
-	 	top: -70%;
 	 	left: 50%;
 	 	transform: translate(-50%,0);
 	 	padding: 60px 30px 20px 30px;
+	 	bottom: 40%;
 	 }
 
 	 section#contact > div > div > form > div > input.btn {

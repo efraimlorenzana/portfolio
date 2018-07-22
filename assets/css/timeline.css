@@ -1,0 +1,12 @@
+.csd {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  top: -4%;
+  left: 10%;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+.csd-p {
+  position: relative;
+}

@@ -26,6 +26,7 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/desktop.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/tablet.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/timeline.css">
 
 	<!-- Template -->
 	<!-- https://www.wix.com/website-template/view/html/1885/?siteId=dc2a3605-d782-456d-b46a-9c1f726975bd&metaSiteId=65c9126c-4af6-4899-b621-554d1fad7a0c&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fdesign%2Fportfolio -->
@@ -80,7 +81,7 @@
 
 				<div class="right col-lg-12">
 					<div class="px-3 py-2 mx-lg-5">
-						<h2 class="text-center mt-2">BIO</h2>
+						<h2 class="text-center mt-2">About Me</h2>
 						<p class="text-justify mt-3 mx-2">
 							Efraim is now a certified web developer, he recently graduated in TUITT Boothcamp Phillippines. But before he enroll in Tuitt, coding is already in his blood and passion. He was a graduate of Computer System Design and Programming, a 2 years laderize course offered at AMA Computer Learning Center back in 2009-2011. Because of his outstanding performance, he was awarded a certificate "Programmer of the Year". He was also the passer of TESDA Object-Oriented Programming Competency Certification NCIV in 2011. He used to be a windows application programmer and web designer in private sector before he shift to Material/Asset Management and later on, in HR Industry. In his spare time, he practice his coding skills, he also love playing games like chess and playing guitar. For him, coding is life and learning is limitless. he is now pursuing the 2nd chance for his career in IT Industry. In this page, you can find CONTACT section to reach him.
 						</p>
@@ -101,7 +102,8 @@
 			</div>
 		</section><!-- /#home -->
 
-		<section id="professional">
+		<section id="professional" class="csd-p">
+			<!-- <div class="csd"></div> -->
 			<div class="set-wrapper px-lg-5"><!-- row 1 -->
 				<h2 class="sectionheader">Professional</h2>
 				<h4 class="sectionheader">My Knowlege level in software</h4>
@@ -124,7 +126,7 @@
 						</div>
 						<div class="col-lg-9 col-md-12 col-sm-12">
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+								<div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
 							</div>
 						</div>
 					</div>
@@ -190,7 +192,7 @@
 						</div>
 						<div class="col-lg-9 col-md-12 col-sm-12">
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 2%;" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
+								<div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
 							</div>
 						</div>
 					</div>
@@ -201,7 +203,7 @@
 						</div>
 						<div class="col-lg-9 col-md-12 col-sm-12">
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 1%;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">1%</div>
+								<div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
 							</div>
 						</div>
 					</div>
@@ -303,6 +305,10 @@
 
 				<div id="gallery">
 
+					<div class="tech"><!-- React -->
+						<img src="./assets/img/technology/react.png" class="tech-img">
+					</div>
+
 					<div class="tech"><!-- HTML -->
 						<img src="./assets/img/technology/html.png" class="tech-img">
 					</div>
@@ -347,6 +353,8 @@
 				<div class="col-lg-12">
 					<h2 class="sectionheader">Experience</h2>
 				</div>
+
+				<div class="x"></div>
 			</div>
 		</section><!-- /#experience -->
 
@@ -355,10 +363,11 @@
 				<h2 class="sectionheader">Portfolio</h2>
 				<div id="gallery">
 					<div class="project"><!-- Capstone 1 -->
-						<img src="./assets/img/projects/dreamlife.png" alt="New Project - Coming soon">
+						<img src="./assets/img/projects/dreamlife.png" alt="Dream Life">
 						<div class="details text-center">
 							<h4>Dream Life</h4>
-							<p>this website is a real estate company</p>
+							<p>This website is a real estate platform</p>
+							<h6>HTML5 / CSS3</h6>
 							<a class="btn btn-danger w-50" href="https://efraimlorenzana.github.io/dreamlife/" target="_blank">Preview</a>
 						</div>
 					</div>
@@ -368,6 +377,7 @@
 						<div class="details text-center">
 							<h4>Empty</h4>
 							<p>please upload new project</p>
+							<h6>Technologies</h6>
 							<a class="btn btn-danger w-50" href="#" target="_blank">No Preview</a>
 						</div>
 					</div>
@@ -377,7 +387,28 @@
 						<div class="details text-center">
 							<h4>Empty</h4>
 							<p>please upload new project</p>
+							<h6>Technologies</h6>
 							<a class="btn btn-danger w-50" href="#" target="_blank">No Preview</a>
+						</div>
+					</div>
+
+					<div class="project"><!-- Robot Friends -->
+						<img src="./assets/img/projects/robot-friends.png" alt="Robot Friends">
+						<div class="details text-center">
+							<h4>Robot Friends</h4>
+							<p>Simple static page of robot profiles</p>
+							<h6>React / JSX</h6>
+							<a class="btn btn-danger w-50" href="https://efraimlorenzana.github.io/robot-friends/" target="_blank">Preview</a>
+						</div>
+					</div>
+
+					<div class="project"><!-- Gradient Generator -->
+						<img src="./assets/img/projects/gradient.png" alt="Gradient Generator">
+						<div class="details text-center">
+							<h4>Gradient Generator</h4>
+							<p>Simple tool to generate Gradient BG-color</p>
+							<h6>HTML5 / CSS3 / Javascript</h6>
+							<a class="btn btn-danger w-50" href="https://efraimlorenzana.github.io/gradient2/" target="_blank">Preview</a>
 						</div>
 					</div>
 
@@ -422,11 +453,11 @@
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<div>
 						<ul>
-							<li><a href="www.facebook.com/strife08"><i class="fab fa-facebook-f fa-2x"></i></a></li>
-							<li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
-							<li><a href="#"><i class="fab fa-codepen fa-2x"></i></a></li>
-							<li><a href="#"><i class="fab fa-gitlab fa-2x"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+							<li><a target="_blank" href="https://www.facebook.com/strife08"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+							<li><a target="_blank" href="https://github.com/efraimlorenzana"><i class="fab fa-github fa-2x"></i></a></li>
+							<li><a target="_blank" href="https://codepen.io/efraimlorenzana/"><i class="fab fa-codepen fa-2x"></i></a></li>
+							<li><a target="_blank" href="https://gitlab.com/efraim.lorenzana"><i class="fab fa-gitlab fa-2x"></i></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/efraim-lorenzana-4bbb2575/"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
 						</ul>
 					</div>
 				</div>

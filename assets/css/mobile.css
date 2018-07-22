@@ -1,8 +1,8 @@
 @media only screen and (max-width: 600px) {
 
-	 img#myPic {
-	 	width: 50%;
-	 }
+	img#myPic {
+		width: 50%;
+	}
 
 	/*
 	 *
@@ -16,6 +16,12 @@
 
 	 section > div > div > h2.sectionheader {
 	 	padding: 15px 0; 
+	 }
+
+	 section#home > div > div > h2 {
+	 	background: linear-gradient(#ffffff4f, #00000052,black,black,black, #ffffff8a);
+	 	padding: 10px 5px;
+	 	border-radius:5px;
 	 }
 
 	 section#portfolio > div.wrapper > div#gallery {
